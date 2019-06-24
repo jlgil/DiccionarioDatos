@@ -1,0 +1,54 @@
+@import "../valo/valo";
+
+@mixin persephone {
+	@include valo;
+
+	.app-down {
+    	color: red;
+ 	}
+ 	
+ 	.app-logs {
+ 		font-size: 10px;
+ 	}
+ 	
+ 	.persephone-card {
+ 		border: 1px solid #d4d4d4;
+ 		border-radius: 5px;
+ 		padding: 5px;
+ 		
+ 		.persephone-card-title {
+ 			width: 100%;
+ 			font-weight: bold;
+ 			text-align: center;
+ 			background-color: #d4d4d4;
+ 		}
+ 		
+ 		.persephone-card-label {
+ 			font-size: 12px;
+ 		}
+ 	}
+ 	
+ 	.persephone-footer {
+ 		font-size: 12px;
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+ 	
+ 	.v-Notification .v-Notification-caption {
+ 		display: block;
+ 	}
+ 	
+	.v-Notification .v-Notification-description {
+		display: block;
+		margin: 25px 0 0 0;
+	}
+	
+	.panel {
+	    text-align: center;
+	    background: blue;
+	
+	}
+	
+
+}
+  
